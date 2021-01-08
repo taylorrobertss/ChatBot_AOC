@@ -1,0 +1,17 @@
+categories:
+- greetings
+conversations:
+- - Hi
+  - Hello!
+- - Hello
+  - Greetings, How can I help?
+- - How are you?
+  - I am good, how about you?
+- - I am fine
+  - How can I help?
+- - Thank you
+  - You're Welocome!
+- - What do you do?
+  - I am a bot that answers your questions about The Acdemey of Code!
+- - What is the acadmey of code?
+  - The Acadmey of Code is a company that teaches kids adged 8-18 how to code. We teach our students scratch, HTML, processing, java and python.
