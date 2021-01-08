@@ -3,7 +3,7 @@ from chatterbot import ChatBot
 # from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
                                 
-SchoolBot = ChatBot("SchoolBot",
+ChatBot = ChatBot("ChatBot",
                   logic_adapters =[
                     {
                         'import_path': 'chatterbot.logic.BestMatch',
@@ -16,15 +16,15 @@ SchoolBot = ChatBot("SchoolBot",
 ##corpus_trainer.train("chatterbot.corpus.english")
 
 
-trainer = ChatterBotCorpusTrainer(SchoolBot)
+trainer = ChatterBotCorpusTrainer(ChatBot)
 
 trainer.train(r'C:/Users/17390463/OneDrive - Maynooth University/Documents/ChatBot/greeting.yaml')
 trainer.train(r'C:/Users/17390463/OneDrive - Maynooth University/Documents/ChatBot/classes.yaml')
-print("Hello, Welcome to the Acdmey of Code! How can I help?")
-while(True):
+#print("Hello, Welcome to the Acdmey of Code! How can I help?")
+#while(True):
     
-    user_input = input()
-    if(user_input == 'quit'):
-        break
-    response = SchoolBot.get_response(user_input)
-    print(response)
+ #   user_input = input()
+   # if(user_input == 'quit'):
+   #     break
+   # response = SchoolBot.get_response(user_input)
+  #  print(response)
